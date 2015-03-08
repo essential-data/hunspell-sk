@@ -20,17 +20,22 @@ Viac informácií v súbore LICENSE.
 O projekte
 ----------
 
-Hunspell slovník vytvorený pomocou *Essential Data hunspell-builder* z dát z Jazykovedného Ústavu
-Ľudovíta Štúra.
+Hunspell slovník vytvorený pomocou [Essential Data hunspell-builder](https://github.com/essential-data/hunspell-builder)
+z dát z Jazykovedného Ústavu Ľudovíta Štúra.
 
 Slovník zachováva vzťah medzi slovom v základnom tvare a jeho rôznymi tvarmi, preto je (na rozdiel
 od slovníkov z projektu sk-spell) vhodný aj pre vytvorenie lematizátora. Tieto sme pre niektoré
-populárne open-source nástroje aj vytvorili.
+populárne open-source nástroje [aj vytvorili](https://github.com/essential-data/).
 
 Súbory
 ------
 
-Máme vytvorené dve verzie - normálnu a verziu bez diakritiky (tá je vhodná pre vyhľadávače).
+Tento repozitár obsahuje tri formy slovníkov:
+
+* sk_SK-lemma - Tento slovník je vhodný pre použitie ako lematizátor.
+* sk_SK-lemma-ascii - Vhodný pre použitie ako lematizátor v prípade, že odstraňujete diakritiku (najvhodnejší slovník pre vyhľadávače)
+* sk_SK-spell - Najvhodnejší pre kontrolu pravopisu. Nezachováva všetky vzťahy medzi rôznymi formami rovnakého slova (napr. slovo "byť" a "sú" sú samostatné slová). Napríklad LibreOffice má problém so suffixovým pravidlom, ktoré by vymenilo celé slovo. Pre vyhľadávač ale tento vzťah potrebujeme zachovať.
+
 
 Zaujíma vás práca z jazykom? Pracujte pre nás!
 ----------------------------------------------
