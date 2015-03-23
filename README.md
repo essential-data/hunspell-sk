@@ -37,7 +37,7 @@ Tento repozitár obsahuje tri formy slovníkov:
 * sk_SK-spell - Najvhodnejší pre kontrolu pravopisu. Nezachováva všetky vzťahy medzi rôznymi formami rovnakého slova (napr. slovo "byť" a "sú" sú samostatné slová). Napríklad LibreOffice má problém so suffixovým pravidlom, ktoré by vymenilo celé slovo. Pre vyhľadávač ale tento vzťah potrebujeme zachovať.
 
 
-Zaujíma vás práca z jazykom? Pracujte pre nás!
+Zaujíma vás práca s jazykom? Pracujte pre nás!
 ----------------------------------------------
 
 Essential Data pracuje s jazykom, s dátami a na zaujímavých projektoch. Pozrite si
